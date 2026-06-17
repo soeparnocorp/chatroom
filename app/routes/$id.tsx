@@ -55,7 +55,7 @@ export default function () {
 		<div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-8 px-4">
 			<div className="max-w-md mx-auto">
 				<h1 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">
-					Todo List
+					🔻
 				</h1>
 
 				<Form method="post" className="mb-8 flex gap-2">
