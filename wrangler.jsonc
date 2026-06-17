@@ -1,6 +1,6 @@
 {
 	"$schema": "./node_modules/wrangler/config-schema.json",
-	"name": "chatroom",
+	"name": "ruangan",
 	"compatibility_date": "2025-10-08",
 	"upload_source_maps": true,
 	"main": "./server.ts",
