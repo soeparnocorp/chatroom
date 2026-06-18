@@ -91,7 +91,7 @@ export default function () {
 								>
 									<span
 										className={
-											todo.completed ? "line-through text-blue-400" : ""
+											todo.completed ? "line-through text-gray-400" : ""
 										}
 									>
 										{todo.text}
