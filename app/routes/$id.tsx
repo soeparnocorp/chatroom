@@ -87,11 +87,11 @@ export default function () {
 									type="submit"
 									name="intent"
 									value="toggle"
-									className="text-gray-500 hover:text-blue-500"
+									className="text-blue-500 hover:text-gray-500"
 								>
 									<span
 										className={
-											todo.completed ? "line-through text-gray-400" : ""
+											todo.completed ? "line-through text-blue-400" : ""
 										}
 									>
 										{todo.text}
