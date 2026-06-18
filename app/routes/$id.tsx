@@ -63,7 +63,7 @@ export default function () {
 						type="text"
 						name="text"
 						className="flex-1 rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white shadow-sm px-4 py-2"
-						placeholder="username"
+						placeholder="To-Do-List"
 					/>
 					<button
 						type="submit"
@@ -87,11 +87,11 @@ export default function () {
 									type="submit"
 									name="intent"
 									value="toggle"
-									className="text-gray-500 hover:text-gray-500"
+									className="text-gray-500 hover:text-blue-500"
 								>
 									<span
 										className={
-											todo.completed ? "line-through text-blue-400" : ""
+											todo.completed ? "line-through text-gray-400" : ""
 										}
 									>
 										{todo.text}
