@@ -1,0 +1,33 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "chatroom",
+	"compatibility_date": "2025-10-08",
+	"upload_source_maps": true,
+	"main": "./server.ts",
+	"assets": {
+		"directory": "./build/client"
+	},
+	"compatibility_flags": ["nodejs_compat"],
+	"observability": {
+		"enabled": true
+	},
+	"kv_namespaces": [
+		{
+			"binding": "TO_DO_LIST",
+			"id": "0e7be170094c496db84d6a1856bf698e"
+		}
+	],
+	"d1_databases": [
+		{
+			"binding": "D1",
+			"database_name": "readtalk-db",
+			"database_id": "GANTI_DENGAN_ID_D1_DATABASE_ANDA"
+		}
+	],
+	"r2_buckets": [
+		{
+			"binding": "R2",
+			"bucket_name": "readtalk-r2"
+		}
+	]
+}
